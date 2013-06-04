@@ -12,7 +12,7 @@ function my_git_prompt_info() {
 
 eval my_gray='$FG[237]'
 
-PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
+PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 RPROMPT='$FG[237][%W %*]%{$reset_color%}%'
 #RPS1="${return_code}"
 
